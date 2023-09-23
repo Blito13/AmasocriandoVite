@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  margin:1rem; 
+    border-radius: 2rem;
+    display: flex;
+    width: 52vh;
+    height: 52vh;
+    background:#f27979;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.details{
+ border-radius: 8rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(148, 239, 134, 0.988);
+  position: absolute;
+    width: 45vh;
+    height: 45vh;
+}
+
+.imgCont{
+  border-radius: 8rem;
+  width: 45vh;
+  height: 45vh;
+
+}
