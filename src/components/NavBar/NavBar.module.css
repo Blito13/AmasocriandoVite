@@ -1,0 +1,130 @@
+.container{
+    min-width: 360px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: space-around;
+   
+}
+.span {
+    display: none;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  position: relative ;
+   height: 13rem;
+}
+.img {
+        width: 60%;
+        filter : brightness(1.1);
+        mix-blend-mode: multiply;
+       /*  margin-left: 3rem; */
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav a{
+ text-decoration: none;
+ color: #000;
+height: 3rem;
+ /* border-bottom: 1px solid #5a2e01; */
+ width: 100%;
+ text-align: center;
+ 
+}
+
+.nav a:hover{
+    background-color: #f27979;;
+}
+/* nav a:first-child{
+    border-top: 1px solid #5a2e01;
+} */
+@media screen and (min-width:720px), (min-heigth:500px){
+    .container{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       /*  
+        justify-content: center;
+        object-fit: contain; */
+        border:none ;
+        top: 0 ;
+        background-color: rgb(255, 255, 255);
+    } 
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+      }
+      .span{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        width:30%;
+        filter : brightness(1.1);
+        margin-top: 4rem;
+        mix-blend-mode: multiply;
+        object-fit:cover;
+      }
+    
+
+    .img{
+        margin-top: 35px;
+        filter : brightness(1.1);
+        /* filter:contrast(1.1); */
+        mix-blend-mode: multiply;
+        height: 50%; 
+        width: 160px;
+        /* width:100%;
+       /*  margin-top: 45px; */
+     /*   width: 00px; */
+       /*  margin-bottom: 10px; */
+      /*   margin-top:-20px; */
+        object-fit:cover;
+        /*  width:100%;
+        height:100%; */
+    }
+
+    .nav{
+        margin-top: 0em;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border:none;
+
+    }
+    .nav a{
+        width: 100%;
+        color: #f27979;
+        display: flex;
+        text-decoration: none;
+   
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        height: 3em;
+        font-family: 'Bebas Neue', sans-serif;
+  
+       }
+
+       
+    .nav a:hover{
+        background-color:#f2797d;
+       height: 70px;
+        color: #000;
+    }}
