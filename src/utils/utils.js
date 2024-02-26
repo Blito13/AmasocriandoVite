@@ -15,12 +15,12 @@ const productos = [
     },
     {
     texto : "Rolls de canela y manzana",
-    imgn :"https://www.collico.cl/wp-content/uploads/2021/06/Rollos-de-canela-receta-724x477-1.jpeg",
+    imgn :"https://media.istockphoto.com/id/1207748377/es/foto/rollos-de-canela-caseros-frescos-o-bollos-de-canela.jpg?s=612x612&w=0&k=20&c=FBIv2b73cy7vaGYZUoEB2NODkV3CHtevQCEispsJwTk=",
     
     },
     {
     texto : "Variedad en budines",
-    imgn :"https://www.almacenconsciente.com/2018/wp-content/uploads/2016/12/budin.jpg",
+    imgn :"https://img-global.cpcdn.com/recipes/eed929a66a238388/400x400cq70/photo.jpg",
     
     },
 ];
