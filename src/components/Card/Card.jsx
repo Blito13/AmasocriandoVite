@@ -16,7 +16,7 @@ return (
    <div className={styles.details} style={open? open : null} >
        <Infobox
        text = {name}
-       />
+ />
        <Infobox
        text = {texto}
        />
